@@ -11,9 +11,9 @@
 			<td><?= $i; ?></td>
 			<td>
 			<?php if ($i % 2 == 0){
-				echo "Genap";
+				echo "<p style='background-color: lightblue'>Genap.</p>";
 			}else {
-				echo "Ganjil";
+				echo "<p style='background-color: lightyellow'>Ganjil.</p>";
 			}	
 			?></td>
 		</tr>
